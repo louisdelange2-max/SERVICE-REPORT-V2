@@ -209,7 +209,10 @@
             <div><label for="machineModel">Machine Model</label><input id="machineModel" list="machineModelOptions" readonly /></div>
             <div>
               <label for="serviceInterval">Service Interval <span class="muted">(record only)</span></label>
-             <input id="serviceInterval" value="250 hrs" readonly>
+             <select id="serviceInterval">
+  <option value="">Select interval</option>
+  <option selected>250 hrs</option>
+</select>
             </div>
             <div><label for="nextService">Next Service</label><input id="nextService" readonly /></div>
             <div><label for="regNum">Reg Num (optional)</label><input id="regNum" list="regOptions" /></div>
